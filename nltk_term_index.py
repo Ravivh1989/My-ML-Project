@@ -14,6 +14,7 @@ TARGET_DIR = 'nlp/'
 logger = epydoc.cli.ConsoleLogger(0)
 logger._verbosity = 5
 log.register_logger(logger)
+# this is commented
 
 
 def find_all_names(stoplist):
